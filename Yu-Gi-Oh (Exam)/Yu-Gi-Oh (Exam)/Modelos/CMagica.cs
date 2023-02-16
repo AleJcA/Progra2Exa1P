@@ -27,7 +27,7 @@ namespace Yu_Gi_Oh__Exam_.Modelos
 
         public override string toString()
         {
-            return $"{base.toString()} - Categoria: {Categoria} - Efecto: {Efecto}";
+            return $"{base.toString()}  \nCategoria: {Categoria}  \nEfecto: {Efecto}";
         }
 
     }

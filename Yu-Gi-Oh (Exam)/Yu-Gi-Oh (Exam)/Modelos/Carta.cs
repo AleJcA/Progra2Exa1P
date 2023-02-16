@@ -11,11 +11,11 @@ namespace Yu_Gi_Oh__Exam_.Modelos
     {
         public string NombreC { get; set; }
 
+        public string Barajaa { get; set; }
+
         public virtual string toString()
         {
-
-
-            return $"Nombre: {NombreC}";
+            return $"\nNombre: {NombreC}";
 
         }
     }

@@ -33,7 +33,7 @@ namespace Yu_Gi_Oh__Exam_.Modelos
         public override string toString()
         {
 
-            return $"{base.toString()} - Descripcion: {Descrip} - Atributo: {Atributo} - Nivel: {Nivel} - Ataque: {Atk} - Defensa {Def}";
+            return $"{base.toString()}  \nDescripcion: {Descrip}  \nAtributo: {Atributo}  \nNivel: {Nivel}  \nAtaque: {Atk}  \nDefensa {Def}";
         }
 
     }
